@@ -5,7 +5,7 @@
  */
 
 let app = require('./server/config/app');
-let debug = require('debug')('comp308-w2019-lesson3b:server');
+let debug = require('debug')('comp308_assignment2_mean_portfolio:server');
 let http = require('http');
 
 /**

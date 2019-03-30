@@ -10,6 +10,7 @@ let DB = require('../config/db');
 let userModel = require("../models/user");
 let User = userModel.User; // alias
 
+
 /*
 
 module.exports.displayHomePage = (req, res, next) => {
