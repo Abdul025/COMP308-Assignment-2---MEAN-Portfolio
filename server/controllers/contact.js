@@ -3,7 +3,7 @@ let router = express.Router();
 let jwt = require('jsonwebtoken');
 
 // create a reference to the db schema
-let contactModel = require('../models/contact');
+let contactModel = require('../models/contact').default;
 
 module.exports.displayContactList = (req, res, next) =>{
     contactModel.find((err, contactList) => {
