@@ -10,4 +10,4 @@ let contactSchema = mongoose.Schema({
     collection: "first"
 });
 
-module.exports = mongoose.model('contact', contactSchema);
+module.exports = mongoose.model('practice', contactSchema);
