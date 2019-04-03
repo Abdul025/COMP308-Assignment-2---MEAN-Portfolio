@@ -28,7 +28,7 @@
   },
   "description": "Express Poftfolio",
   "main": "server.js",
-  "author": "Abdulghafor Nurali",
+  "author": "Tsiliopoulos, Tom",
   "license": "ISC",
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
